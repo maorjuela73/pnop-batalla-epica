@@ -1,0 +1,12 @@
+# vscode files
+.vscode
+
+# .pytest_cache directory
+.pytest_cache
+
+# environment directory
+venv/
+pnop_env/
+
+# all __pycache__ directories
+__pycache__/
