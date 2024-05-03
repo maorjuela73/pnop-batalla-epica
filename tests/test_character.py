@@ -24,7 +24,7 @@ class TestCharacter(unittest.TestCase):
 
     def test_take_damage_excessive(self):
         self.hero.take_damage(200)
-        self.assertEqual(self.hero.health, -100)  # or set to 0 if handling negative health
+        self.assertEqual(self.hero.health, 0)  # or set to 0 if handling negative health
 
     def test_attack_enemy(self):
         initial_health = self.monster.health

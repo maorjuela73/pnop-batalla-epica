@@ -10,7 +10,7 @@ class Character:
         return self.health > 0
 
     def take_damage(self, damage):
-        self.health -= damage
+        self.health = max(self.health - damage, 0)
 
     def attack_enemy(self, enemy):
         damage = random.randint(0, self.attack)

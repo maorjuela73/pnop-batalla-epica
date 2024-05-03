@@ -13,13 +13,16 @@ class TestBattle(unittest.TestCase):
         self.assertEqual(self.battle.enemy.name, "Monstruo")
 
     def test_battle_end_hero_wins(self):
-        self.battle.start_battle()
+        #performs turns until game ends
+        while self.hero.is_alive() and self.monster.is_alive():
+            self.battle.perform_turn()
         self.assertTrue(self.hero.is_alive())
         self.assertFalse(self.monster.is_alive())
 
     def test_battle_end_monster_wins(self):
         self.hero.take_damage(90)
-        self.battle.start_battle()
+        while self.hero.is_alive() and self.monster.is_alive():
+            self.battle.perform_turn()
         self.assertFalse(self.hero.is_alive())
         self.assertTrue(self.monster.is_alive())
 

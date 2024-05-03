@@ -25,6 +25,11 @@ hero_image = pygame.image.load('assets/images/hero.png').convert_alpha()
 monster_image = pygame.image.load('assets/images/monster.png').convert_alpha()
 background_image = pygame.image.load('assets/images/background.jpg').convert()
 
+# Escalar imágenes
+hero_image = pygame.transform.scale(hero_image, (150, 150))
+monster_image = pygame.transform.scale(monster_image, (150, 150))
+background_image = pygame.transform.scale(background_image, (800, 600))
+
 # Posiciones de los sprites
 hero_pos = (150, 250)
 monster_pos = (550, 250)
