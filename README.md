@@ -87,6 +87,12 @@ Para ejecutar las pruebas unitarias, utiliza el siguiente comando:
 python -m unittest discover -s tests
 ```
 
+## Assets y derechos de autor
+
+Los assets utilizados en este juego son de dominio público y se pueden encontrar en sitios como [Itch.io](https://https://itch.io/). Los créditos de los assets utilizados en este juego son los siguientes:
+
+- **Héroe**: [Free Fantasy Knight](https://free-game-assets.itch.io/free-fantasy-knight)
+
 ### Notas
 
 - **Diagrama de Clases**: El bloque de código PlantUML proporciona una visualización del modelo de clases. Este diagrama se puede visualizar usando herramientas que soportan PlantUML, como plugins en editores de texto o servicios online.

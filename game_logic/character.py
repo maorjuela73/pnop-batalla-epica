@@ -14,9 +14,8 @@ class Character:
 
     def attack_enemy(self, enemy):
         damage = random.randint(0, self.attack)
-        print(f"{self.name} ataca a {enemy.name} y le inflige {damage} de daño.")
         enemy.take_damage(damage)
-        print(f"{enemy.name} tiene {enemy.health} HP restantes.")
+        return damage
 
     def __str__(self):
         return f"{self.name} ({self.health} HP, {self.attack} ATK)"

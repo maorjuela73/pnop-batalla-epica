@@ -1,0 +1,14 @@
+# Para el guerrero
+
+Create a detailed and neatly organized pixel art based sprite sheet for a zombie character for a game. 
+The total size of the sprite sheet should be 160 pixels in width and 288 pixels in height. 
+Each individual frame should measure 32 pixels by 32 pixels. 
+Follow the arrangement described as such: 1st row displays a side-view of the zombie in attack mode with 5 frames; 
+2nd row presents the side-view of the zombie in motion, consisting of 4 frames; 
+3rd row features a side-view of idle zombie in 2 frames. 
+4th row portrays a back-view of an attacking zombie in 5 frames; 
+5th row depicts a back-view of moving zombie with 4 frames;
+6th row shows a back view of an idle zombie in 2 frames. 
+Rows 7 to 9 repeat this pattern but offer a front-view of the zombie.
+Each frame should carefully place the zombie character in the center, making sure it fits properly within the frame's boundaries.
+
